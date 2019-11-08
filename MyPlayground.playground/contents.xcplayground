@@ -3,5 +3,7 @@
     <pages>
         <page name='体验'/>
         <page name='变量和常量'/>
+        <page name='SQLite3'/>
+        <page name='Date-时间'/>
     </pages>
 </playground>

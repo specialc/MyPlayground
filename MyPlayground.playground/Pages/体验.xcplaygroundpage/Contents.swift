@@ -18,3 +18,7 @@ v.backgroundColor = UIColor.red
 let btn = UIButton(type: .contactAdd)
 btn.center = v.center
 v.addSubview(btn)
+
+
+// MARK: 说明
+// FIXME: 添加标记2
