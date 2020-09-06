@@ -20,5 +20,12 @@ btn.center = v.center
 v.addSubview(btn)
 
 
-// MARK: 说明
+// MARK: 富文本
+let userAgreementLabel = UILabel()
+let tipString = "注册/登录代表您已阅读并同意"
+let attrString = NSMutableAttributedString(string: tipString)
+attrString.setAttributes([NSAttributedString.Key.foregroundColor : UIColor.white, NSAttributedString.Key.font : UIFont.systemFont(ofSize: 15)], range: NSMakeRange(0, tipString.count))
+let agreementAttrString = NSMutableAttributedString(string: "用户协议", attributes: [NSAttributedString.Key.foregroundColor : UIColor.red, NSAttributedString.Key.font : UIFont.systemFont(ofSize: 15)])
+attrString.append(agreementAttrString)
+userAgreementLabel.attributedText = attrString
 // FIXME: 添加标记2
