@@ -6,7 +6,7 @@ import UIKit
 
 var str = "Hello, playground"
 
-
+// 提示：在日常开发中，应该首选let，在必须修改的时候，再使用 var
 // 变量 var = 设置数值之后，可以修改
 // 变量 let = 设置数值之后，不可以修改
 // 自动推导：根据右侧的数值，推导数据类型

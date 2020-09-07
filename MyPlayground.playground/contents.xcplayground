@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' executeOnSourceChanges='true'>
     <pages>
-        <page name='体验'/>
-        <page name='变量和常量'/>
         <page name='SQLite3'/>
         <page name='Date-时间'/>
+        <page name='体验'/>
+        <page name='变量和常量'/>
         <page name='Optional'/>
         <page name='分支控制'/>
         <page name='Switch'/>
+        <page name='字符串'/>
+        <page name='循环'/>
+        <page name='数组'/>
+        <page name='字典'/>
+        <page name='函数'/>
+        <page name='闭包'/>
     </pages>
 </playground>
